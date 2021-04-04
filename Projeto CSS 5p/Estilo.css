@@ -1,0 +1,214 @@
+#ancoramento {
+	font-family: Bradley Hand, cursive;
+	font-size: 13px;
+	background-color: #F5F5DC;
+}
+#ancoramento ul {
+	padding: 3px;
+	margin: 3px;
+	list-style: none;
+	text-align: center;
+}
+#ancoramento ul li{
+	display: inline;
+}
+#ancoramento ul li a{
+	padding: 3px 20px;
+	display: inline-block;
+	color: #daa520;
+	text-decoration: none;
+	border-bottom: 3px 20px #000000 solid;
+	font-size: 20px;
+}
+#ancoramento ul li a:hover {
+	background-color: #EEE9E9;
+	color: #000000;
+	border-bottom: 3px #EEE9E9 solid;
+	font-size: 19px;
+}
+
+#titulo {
+	text-align: center;
+	color: #000000;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	font-size: 60px;
+}
+
+#subtitulo {
+	text-align: auto;
+	color: #000000;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	font-size: 30px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.desenvolvimento {
+	margin: 7px;
+	text-indent: 2em;
+	color: #000000;
+	font-family: Bradley Hand, cursive;
+	font-size: 15px;
+	text-align: justify-all;
+	line-height: 150%;
+}
+
+#desenvolvimento1 {
+	margin: 7px;
+	color: #000000;
+	font-family: Bradley Hand, cursive;
+	font-size: 20px;
+	text-align: justify-all;
+	line-height: 150%;
+}
+
+.ressalva {
+	margin: 7px;
+	color: #000000;
+	font-family: Bradley Hand, cursive;
+	font-size: 9px;
+	text-align: center;
+	line-height: 150%;
+	font-weight: bolder;
+}
+
+#album {
+	max-height: 500px;
+	max-width: 500px;
+	border: thin #daa520 solid;
+	display: flex;
+	flex-flow: column;
+	padding: 20px;
+	margin: auto;
+	text-align: center;
+	font-family: Bradley Hand, cursive;
+}
+#primeiroshow {
+	max-height: 450px;
+	max-width: 450px;
+	border: thin #daa520 solid;
+	display: flex;
+	flex-flow: column;
+	padding: 20px;
+	margin: auto;
+	text-align: center;
+	font-family: Bradley Hand, cursive;
+}
+#youtuber {
+	max-height: 450px;
+	max-width: 450px;
+	border: thin #daa520 solid;
+	display: flex;
+	flex-flow: column;
+	padding: 20px;
+	margin: right;
+	text-align: center;
+	font-family: Bradley Hand, cursive;
+}
+#ensaio {
+	max-height: 450px;
+	max-width: 450px;
+	border: thin #daa520 solid;
+	display: flex;
+	flex-flow: column;
+	padding: 20px;
+	margin: auto;
+	text-align: center;
+	font-family: Bradley Hand, cursive;
+}
+#capa {
+	max-height: 450px;
+	max-width: 450px;
+	border: thin #daa520 solid;
+	display: flex;
+	flex-flow: column;
+	padding: 20px;
+	margin: right;
+	text-align: center;
+	font-family: Bradley Hand, cursive;
+}
+#atual {
+	max-height: 450px;
+	max-width: 450px;
+	border: thin #daa520 solid;
+	display: flex;
+	flex-flow: column;
+	padding: 20px;
+	margin: auto;
+	text-align: center;
+	font-family: Bradley Hand, cursive;
+}
+
+#form {
+	font-family: Bradley Hand, cursive;
+	font-size: 15px;
+	padding: 7px;
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+	align-items: right;
+}
+
+.formquestions {
+	padding: 7px;
+	color: #daa520;
+	font-family: Bradley Hand, cursive;
+	font-size: 25px;
+	text-align: justify-all;
+	font-weight: bolder;
+}
+
+.formquestions1 {
+	padding: 7px;
+	color: #000000;
+	font-family: Bradley Hand, cursive;
+	font-size: 15px;
+	text-align: justify-all;
+}
+
+#precos {
+	font-family: Bradley Hand, cursive;
+	font-size: 15px;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+#precos th {
+	border: 3px double;
+	background-color: #F5F5DC;
+	color: #daa520;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#precos tr td {
+	border: 3px;
+	border-style: double;
+	border-color: #F5F5DC;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#precos tr:nth-child(even) {
+	background-color: #EEE9E9;
+}
+
+#rodape {
+	background-color: #F5F5DC;
+	height: 6%;
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	font-family: Bradley Hand, cursive;
+	position: relative;
+	padding-bottom: 0;
+}
+#rodape:hover {
+	background-color: #EEE9E9;
+	color: #daa520;
+	font-size: 19px;
+}
